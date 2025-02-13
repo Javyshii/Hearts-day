@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="icon" href="gugma.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+        }
+
+        .btn {
+            width: 100%;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .no {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pwede ka nako ma date? 🥰</h1>
+        <img src="hearts.gif" alt="" style="width: 200px;">
+
+        <div class="mt-4">
+            <a href="nextp.html"> <button class="btn btn-danger btn-no" id="btnNo">No.</button></a>
+            <!-- Button trigger modal -->
+            <button type="button" id="btnYes" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Yes!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sure ka? Final najud na?😻</h5>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Seryoso? Murag di ko katuo nga naabot na gyud akong panahon. Basin naa kay
+                                pusta ani, or prank lang ni? Kay kung tinuod ni, murag kinahanglan pa nakog notarized
+                                agreement kay di gyud ni basta-basta!</h4>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NVM.</button>
+                            <a href="yesp.html" class="btn"><button type="button" class="btn btn-primary" >Yes Lage!</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
